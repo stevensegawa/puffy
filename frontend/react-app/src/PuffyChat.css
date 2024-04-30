@@ -1,0 +1,99 @@
+.puffy-chat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00BFFF; /* A blue shade */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #009ACD; /* A slightly darker blue shade */
+  }
+  
+  .chat-box {
+    width: 100%;
+    max-width: 500px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .conversation {
+    height: 300px; /* Adjust based on content */
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: block; /* Ensure each message is on its own line */
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .message.user {
+    background-color: #d1ecf1;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  
+  .message.puffy {
+    background-color: #f8d7da;
+    align-self: flex-end;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  
+  .user-input-form {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .user-input-form:last-child {
+    display: flex;
+    margin-bottom: 0;
+    align-self: flex-end;
+  }
+  
+  .user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .send-button:hover {
+    background-color: #009ACD;
+  }
+
+  .gratitude-button {
+    margin-right: 10px;
+  }
